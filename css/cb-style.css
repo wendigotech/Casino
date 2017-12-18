@@ -1,0 +1,1361 @@
+
+.overlay {
+    width: 100%;
+    background: no-repeat center center;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+}
+
+/********* 0.3 BUTTON STYLES /*********
+
+/* buttons */
+
+/********* 1.0 NAVIGATION BLOCKS STYLES /*****
+
+/* navigation1 */
+
+/* navigation for header 2 */
+.navigation2 .button_container {
+    position: fixed;
+    top: 5%;
+    height: 27px;
+    width: 35px;
+    cursor: pointer;
+    z-index: 100;
+    -webkit-transition: opacity .25s ease;
+    transition: opacity .25s ease;
+    left: 5%;
+}
+
+.navigation2 .button_container:hover {
+    opacity: .7;
+}
+
+.navigation2 .button_container span {
+    background: #62b151;
+    border: none;
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+    cursor: pointer;
+}
+
+.navigation2 .button_container span:nth-of-type(2) {
+    top: 11px;
+}
+
+.navigation2 .button_container span:nth-of-type(3) {
+    top: 22px;
+}
+
+.navigation2 .overlay {
+    position: fixed;
+    background: #62b151;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity .35s, visibility .35s, height .35s;
+    transition: opacity .35s, visibility .35s, height .35s;
+    overflow: hidden;
+    z-index: 8;
+}
+
+.navigation2 .overlay nav {
+    position: relative;
+    height: 50%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.navigation2 .overlay ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    height: 100%;
+}
+
+.navigation2 .overlay ul li {
+    display: block;
+    height: auto;
+    position: relative;
+    opacity: 0;
+}
+
+.navigation2 .overlay ul li a {
+    display: block;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.navigation2 .overlay ul li a:hover:after,
+.navigation2 .overlay ul li a:focus:after,
+.navigation2 .overlay ul li a:active:after {
+    width: 100%;
+}
+
+.navigation2 .overlay ul li a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 2px;
+    background: #fff;
+    -webkit-transition: .35s;
+    transition: .35s;
+}
+
+/* navigation2 */
+
+/* navigation3 */
+
+/* navigation4 */
+
+/* #navigation4 top-bar */
+
+/* #navigation5 top-bar */
+
+/* navigation6 */
+
+/* navigation7 */
+
+/* navigation8 */
+/* navigation8 */
+
+/* navigation9 */
+
+/* #navigation10 top-bar */
+
+/* #navigation11 top-bar */
+
+/* navigation12 */
+
+/* navigation13 */
+
+/* navigation14 */
+
+/* navigation15 */
+
+/* MEGA MENU */
+
+/********* 1.1 SLIDER BLOCKS STYLES /*****
+
+/* slider1 */
+
+/* slider2 */
+
+/* slider3 */
+
+/* Slider4 */
+
+/* SLIDER5 */
+
+/* SLIDER6 */
+
+/* SLIDER 7 */
+.slider7_carousel_wrapper {
+    background-color: #000;
+    overflow: hidden;
+    max-height: 800px;
+}
+
+.slider7_carousel_caption {
+    top: 15%;
+    left: 15%;
+    right: 0%;
+    width: 50%;
+    padding: 10px;
+    text-align: left;
+    text-shadow: none;
+}
+
+.slider7_carousel_caption h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0px 0px 5px 0px;
+    text-transform: uppercase;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-timing-function: cubic-bezier(.22, .81, .01, .99);
+    animation-timing-function: cubic-bezier(.22, .81, .01, .99);
+}
+
+.slider7_carousel_caption h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px 0px 30px 0px;
+    text-transform: uppercase;
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-timing-function: cubic-bezier(.22, .81, .01, .99);
+    animation-timing-function: cubic-bezier(.22, .81, .01, .99);
+}
+
+.slider7_carousel_caption a,
+.slider7_carousel_caption a:visited {
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 20px 15px 20px;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-timing-function: cubic-bezier(.22, .81, .01, .99);
+    animation-timing-function: cubic-bezier(.22, .81, .01, .99);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.slider7_carousel_caption a {
+    color: #ffffff;
+    background-color: #050505;
+}
+
+.slider7_carousel_caption a:hover,
+.slider7_carousel_caption a:active,
+.slider7_carousel_caption a:focus {
+    color: #ffffff;
+    background-color: #0f0f10;
+}
+
+.slider7_carousel_wrapper > .carousel-inner > .item > img {
+    opacity: 0.5;
+    margin: auto;
+    width: 100% !important;
+}
+
+.slider7_carousel_indicators {
+    top: 1px;
+    left: 90%;
+    z-index: 3;
+    bottom: 0%;
+    width: 10%;
+    height: 100%;
+    overflow: auto;
+    margin-left: 0%;
+    position: absolute;
+    margin-bottom: 0px;
+    padding: 0px 5px 0px 5px;
+}
+
+.slider7_carousel_indicators li {
+    width: 100%;
+    opacity: 0.8;
+    height: auto;
+    border: none;
+    display: block;
+    margin: 8px 0px 2px;
+    -webkit-border-radius: 0%;
+
+    /* Chrome, Safari, Opera */
+    border-radius: 0%;
+
+    /* Standard syntax */
+    -webkit-transition: opacity 0.3s ease-in-out 0s;
+
+    /* Chrome, Safari, Opera */
+    transition: opacity 0.3s ease-in-out 0s;
+
+    /* Standard syntax */
+}
+
+.slider7_carousel_indicators li img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+
+.slider7_carousel_indicators .active {
+    width: 100%;
+    opacity: 0.4;
+    height: auto;
+    border: none;
+    margin: 8px 0px 2px;
+}
+
+.slider7_carousel_indicators::-webkit-scrollbar {
+    width: 5px;
+}
+
+.slider7_carousel_indicators::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.slider7_carousel_indicators {
+    background: #282828;
+}
+
+.slider7_carousel_indicators::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+@media (min-width: 601px) and (max-width: 767px) {
+    .slider7_carousel_caption {
+        left: 0%;
+        bottom: 5%;
+        width: 90%;
+    }
+
+    .slider7_carousel_caption h1 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .slider7_carousel_caption {
+        left: 0%;
+        width: 90%;
+    }
+
+    .slider7_carousel_caption h1 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 599px) {
+    .slider7_carousel_caption {
+        width: 100%;
+    }
+
+    .slider7_carousel_caption h1 {
+        font-size: 18px;
+    }
+
+    .slider7_carousel_caption h2 {
+        font-size: 18px;
+    }
+}
+
+/* SLIDER 8 */
+
+/* SLIDER 9 */
+
+/* SLIDER 10 */
+
+/********* 1.2 HEADER BLOCKS STYLES /*****
+
+/* header1 */
+
+/* header2 */
+
+/* header3 */
+
+/* header4 */
+
+/* header5 */
+
+/* header6 */
+
+/* header7 */
+
+/* header8 */
+
+/* header9 */
+
+/* header10 */
+
+/* header11 */
+
+/* firefox 19+ */
+
+/* ie */
+
+/* header12 */
+
+/* header13 */
+
+/* header14 */
+
+/* header15 */
+
+/* header16 */
+
+/* header 17 */
+
+/* header18 */
+
+/* header19 */
+
+/* header20 */
+
+/* header 21 */
+
+/********* 1.3 INTRO BLOCKS STYLES /*****
+
+/* intro1 */
+
+/* intro2 */
+
+/* intro3 */
+
+/* intro4 */
+
+/* intro5 */
+
+/* intro6 */
+
+/* intro7 */
+
+/* intro8 */
+
+/* intro9 */
+
+/* intro10 */
+
+/* intro11 */
+
+/* intro12 */
+
+/* intro13 */
+
+/* intro14 */
+
+/* intro15 */
+
+/* intro16 */
+
+/* intro17 */
+
+/* intro18 */
+
+/* intro19 */
+
+/* intro20 */
+
+/* intro22 */
+
+/* intro23 */
+
+/* intro24 */
+
+/**  intro25  **/
+
+/* intro 26 */
+
+/*---------- MEDIA 481px - 600px ----------*/
+
+/********* 1.4 SERVICE BLOCKS STYLES /*****
+
+/* services1 */
+
+/* services2 */
+
+/* services3 */
+
+/* services4 */
+
+/* services5 */
+
+/* services6 */
+
+/* Services 7 */
+
+/* services8 */
+
+/* services9 */
+
+/**  Services 10  **/
+
+/**  Services 11  **/
+
+/**  Services 12  **/
+
+/**  Services 13  **/
+
+/**  Services 14  **/
+
+/**  Services 15  **/
+
+/**  Services 16 **/
+
+/**  Services 17  **/
+
+/**  Services 18  **/
+
+/**  Services 19  **/
+
+/**  Services 20  **/
+
+/********* 1.5 FEATURE BLOCKS STYLES /*****
+
+/********* 1.6 CONTENT BLOCKS STYLES /*****
+
+/* content1 */
+
+/*content2*/
+.content2 {
+    padding: 0px;
+}
+
+.content2 .content2-box {
+    padding: 64px 40px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    min-height: 397px;
+}
+
+.content2 .content2-box .btn {
+    margin-top: 24px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0;
+    border: 1px solid white;
+}
+
+.content2-box1 {
+    background-color: #241d4f;
+}
+
+.content2-box2 {
+    background-color: #1583c9;
+}
+
+.no-pad {
+    padding: 0;
+}
+
+.content2-white {
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.content2-white-p {
+    line-height: 1.7;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.content-2-black {
+    color: #000;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.content2-black-p {
+    line-height: 1.7;
+    font-weight: normal;
+}
+
+.btn3 {
+    background-color: #1583c9 !important;
+    border: 1px solid black !important;
+}
+
+/* content3 */
+
+/* content3 */
+
+/* content4 */
+
+/* content5 */
+
+/* content6 */
+/* content6 */
+
+/* content7 */
+
+/* content8 */
+
+/* content9 */
+
+/**  Content 10 **/
+
+/**  Content 11  **/
+
+/* content12 */
+
+/* content13 */
+
+/* content14 */
+
+/* content16 */
+
+/* content17 */
+
+/* content18 */
+
+/* content19 */
+
+/* content20 */
+
+/* content21 */
+
+/* content22 */
+
+/* content23 */
+
+/* content24 */
+
+/* content25 */
+
+/* content26 */
+/* content26 */
+
+/* content27 */
+
+/* content28 */
+
+/* content29 */
+
+/* content30 */
+
+/* content 31 */
+
+/* content 32 */
+
+/* content 33 */
+
+/* content34 */
+
+/* content35 */
+
+/* content36 */
+
+/* content37 */
+
+/* content38 */
+
+/* content39 */
+
+/* content40 */
+
+/* content41 */
+
+/* content42 */
+
+/* content43 */
+
+/* content44 */
+
+/* content45 */
+
+/* #content46 */
+
+/********* 1.7 TITLE  BLOCKS STYLES /*****
+
+/* title1 */
+
+/* title2 */
+
+/* title3 */
+
+/* title4 */
+
+/* title5 */
+
+/* title6 */
+
+/* title7 */
+
+/* title8 */
+
+/* title9 */
+
+/* title10 */
+
+/* title11 */
+
+/* title 12 */
+
+/* title13 */
+
+/********* 1.8 BLOG BLOCKS STYLES /*****
+
+/* blog1 */
+
+/* Media */
+
+/* blog2 */
+
+/* blog2 */
+
+/********* 1.9 TEAM BLOCKS STYLES /*****
+
+/* team1 */
+
+/* team2 */
+
+/* team3 */
+
+/* team4 */
+
+/* team5 */
+
+/* team6 */
+
+/* team7 */
+
+/* team8 */
+
+/* team9 */
+
+/* team10 */
+
+/* team11 */
+
+/* team12 */
+
+/* team13 */
+
+/* team14 */
+
+/* team15 */
+
+/* team16 */
+
+/* team17 */
+
+/* team18 */
+
+/* team19 */
+
+/* team20 */
+
+/* team21 */
+
+/********* 1.10 SKILL BLOCKS STYLES /*****
+
+/* skills1 */
+
+/* skills2 */
+
+/* skills3 */
+
+/* skills4 */
+
+/* skills5 */
+
+/********* 1.11 PRICING BLOCKS STYLES /*****
+
+/* pricing 1 */
+
+/* pricing 2 */
+
+/* pricingtable1 */
+
+/* pricingtable2 */
+
+/* pricingtebles3 */
+
+/* pricingtebles4 */
+
+/* pricingtable5 */
+
+/* pricingtable6 */
+
+/* pricingtable6 */
+
+/* pricingtable7 */
+
+/* pricingtable 8 */
+
+/* pricing-table 9 */
+
+/* Pricingtable 10 */
+
+/********* 1.12 TESTIMONIAL BLOCKS STYLES /*****
+
+/* testimonial1 */
+
+/* testimonial2 */
+
+/* testimonial3 */
+
+/* testimonial 4 */
+
+/* Testimonial 5 */
+
+/**** 1.13 MEDIA BLOCKS STYLES *****/
+/* media1 */
+
+/* media2 */
+
+@media screen and (max-width: 767px) {
+
+    img {
+        max-width: 100%;
+        display: none;
+    }
+}
+
+/********* 1.14 SOCIAL BLOCKS STYLES /*****
+
+/* social1 */
+
+/* #social2 */
+
+/* #social3 */
+
+/* social 4 */
+
+/* social5 */
+
+/* social 6 */
+
+/* social7 */
+
+/* social8 */
+
+/* social9 */
+
+/* social10 */
+
+/********* 1.15 DOWNLOAD BLOCKS STYLES /*****
+
+/* download 1 */
+
+/* download2 */
+
+/* download3 */
+
+/* download4 */
+
+/* download5 */
+
+/********* 1.16 PARTNER BLOCKS /*****
+
+/* partner1 */
+
+/* partner2 */
+
+/* partner3 */
+
+/********* 1.17 CTA BLOCKS STYLES /*****
+
+/* cta 1 */
+/* cta1 */
+
+/* cta 2 */
+
+/* cta3 */
+
+/* cta4 */
+
+/* cta5 */
+
+/* cta6 */
+
+/*cta7*/
+
+/********* 1.18 SUBSCRIBE BLOCKS STYLES /*****
+
+/* subscribe1 */
+
+/* subscribe2 */
+
+/* subscribe3 */
+
+/* firefox 19+ */
+
+/* ie */
+
+/* subscribe4 */
+
+/* subscribe5 */
+
+/********* 1.19  BLOCKS STYLES /*****
+
+/* portfolio1 */
+
+/* Media */
+
+/* portfolio2 */
+
+/* Media */
+
+/* portfolio3 */
+
+/* Media */
+
+/* #portfolio4 */
+
+/********* 1.20 GALLERY BLOCKS STYLES *********/
+/* Gallery1 */
+.carousel:hover {
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+.carousel:active {
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
+/* gallery2 */
+
+/*----- CLOSE BUTTON -----*/
+
+@media only screen and (max-width: 480px) {
+    / .gallery2_header {
+        width: 95%;
+    }
+}
+
+/********* 1.21 GRID BLOCKS STYLES /*****
+
+/*--GRID 1--*/
+
+/* GRID 2 - 20 */
+
+/* Common style */
+
+/* INVIDUAL EFFECT GRID COMPONENTS 2 - 20 */
+/*---------------*/
+/***** Lily *****/
+/*---------------*/
+
+/*---------------*/
+/***** Sadie *****/
+/*---------------*/
+
+/*---------------*/
+/***** Roxy *****/
+/*---------------*/
+
+/*---------------*/
+/***** Bubba *****/
+/*---------------*/
+
+/*---------------*/
+/***** Romeo *****/
+/*---------------*/
+
+/*---------------*/
+/***** Layla *****/
+/*---------------*/
+
+/*---------------*/
+/***** Honey *****/
+/*---------------*/
+
+/*---------------*/
+/***** Oscar *****/
+/*---------------*/
+
+/*figure.effect-oscar img {
+	opacity: 0.9;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+*/
+
+/*---------------*/
+/***** Marley *****/
+/*---------------*/
+
+/*---------------*/
+/***** Ruby *****/
+/*---------------*/
+
+/*---------------*/
+/***** Milo *****/
+/*---------------*/
+
+/*---------------*/
+/***** Dexter *****/
+/*---------------*/
+
+/*---------------*/
+/***** Sarah *****/
+/*---------------*/
+
+/*---------------*/
+/***** Zoe *****/
+/*---------------*/
+
+/*---------------*/
+/***** Chico *****/
+/*---------------*/
+
+@media screen and (max-width: 50em) {
+    .content {
+        padding: 0 10px;
+        text-align: center;
+    }
+}
+
+/*works*/
+
+/********* 1.22 ACCORDION BLOCKS STYLES *****/
+/*ACCORDION1*/
+
+/*ACCORDION2*/
+
+/********* 1.23 TAB BLOCKS STYLES *****/
+/*TAB1*/
+
+/*tab2*/
+
+.tab-pane.active {
+    -moz-animation-duration: 500ms;
+    -webkit-animation-duration: 500ms;
+    animation-duration: 500ms;
+    -moz-animation-name: slidein;
+    -webkit-animation-name: slidein;
+    animation-name: slidein;
+    -moz-animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -moz-animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+/*tab3*/
+#tab3 {
+    background-color: #465056;
+    position: relative;
+}
+
+#tab3 a {
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+    background-color: #3c3782;
+}
+
+#tab3 a:focus,
+#tab3 a:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+#tab3 .tab3-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(166, 192, 238, 0.43);
+
+    /*dim the background*/
+}
+
+.cbtab3-tab .tab-list li {
+    position: relative;
+    border-bottom: 1px solid #000;
+    max-width: 145px;
+}
+
+.cbtab3-tab .tab-list li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 35px 25px;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+.cbtab3-tab .tab-list li a i {
+    display: block;
+    font-size: 60px;
+}
+
+.cbtab3-tab .tab-content {
+    padding: 120px 100px;
+}
+
+.cbtab3-tab .tab-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.cbtab3-tab .tab-content p {
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+/*tab3*/
+#tab3 {
+    background-color: #465056;
+}
+
+#tab3 .cbtab3-tab h4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cbtab3-tab .tab-list {
+    padding-top: 25px;
+}
+
+#tab3 ul {
+    list-style: none;
+}
+
+.cbtab3-tab .tab-list li {
+    position: relative;
+    border-bottom: 1px solid #000;
+    max-width: 145px;
+    background-color: #bb5e82;
+}
+
+.cbtab3-tab .tab-list li a {
+    background-color: #176cff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 35px 25px;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+.cbtab3-tab .tab-list li a i {
+    display: block;
+    font-size: 60px;
+}
+
+.cbtab3-tab .tab-content {
+    padding: 120px 100px;
+}
+
+.cbtab3-tab .tab-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.cbtab3-tab .tab-content p {
+    margin-bottom: 25px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .cbtab3-tab .tab-content {
+        padding: 60px 45px;
+    }
+}
+
+@media (max-width: 767px) {
+    .cbtab3-tab .tab-content {
+        padding: 25px 0px;
+    }
+
+    .cbtab3-tab .tab-content h1 {
+        font-size: 30px;
+    }
+
+    .cbtab3-tab .tab-list li {
+        display: inline-block;
+    }
+
+    .cbtab3-tab .tab-list li a {
+        padding: 10px 25px;
+    }
+
+    .cbtab3-info {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 479px) {
+    .cbtab3-tab .tab-list li {
+        max-width: 100%;
+        display: block;
+    }
+}
+
+/* tabs4 */
+
+/*tabs5*/
+
+/*TAB6*/
+
+/********* 1.25 PROCESS BLOCKS STYLES /*****
+
+/*process 1*/
+
+/* process2 */
+
+/********* 1.26 CONTACT BLOCKS STYLES /*****
+
+/* contact1 */
+
+/* contact2 */
+
+/* contact3 */
+
+/* contact4 */
+
+/* contact5 */
+
+/* contact 6 */
+
+@media only screen and (max-width: 480px) {
+    /*---------- WRAPPER ----------*/
+}
+
+/* contact7 */
+
+/* contact */
+
+/* contact9 (map) */
+
+/*contact 10*/
+
+/********* 1.27 UTILITY BLOCKS STYLES /*****
+
+/* page404-1 */
+
+/* 404 2 */
+
+/********* 1.28 FORM BLOCKS STYLES /*****
+
+/* pagelogin1 */
+
+/* firefox 19+ */
+
+/* ie */
+
+/* pageregister1 */
+
+/* firefox 19+ */
+
+/* ie */
+
+/* pageloginregister1 */
+
+/*form4*/
+
+/* form5 */
+
+/********* 1.29 FOOTER BLOCKS STYLES /*****
+
+/* Footer */
+
+/* footer1 */
+
+/* footer2 */
+
+/* footer3 */
+
+/* footer4 */
+
+/* footer5 */
+
+/* footer6 */
+
+/* footer7 */
+
+/* footer8 */
+#footer8 {
+    padding: 40px 0;
+    background: #fff;
+    color: #282828;
+    border-top: 1px solid #ccc;
+}
+
+#footer8 ul {
+    text-align: center;
+}
+
+#footer8 a {
+    color: #282828;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+#footer8 ul li a:first-child {
+    margin-left: 0;
+}
+
+#footer8 a:hover {
+    color: #898989;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#footer8 .content {
+    float: left;
+}
+
+#footer8 .content p {
+    font-weight: 400;
+    color: #ccc;
+}
+
+#footer8 .social-icons {
+    float: right;
+    margin-top: 12px;
+}
+
+#footer8 .social-icons .fa {
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+    color: #ccc;
+    width: 40px;
+    height: 40px;
+    background-color: #898989;
+    border-radius: 40px;
+}
+
+#footer8 .social-icons a {
+    margin: 0 15px;
+}
+
+#footer8 .fa:hover {
+    color: #282828 !important;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+@media (max-width: 1000px) {
+    #footer8 .social-icons {
+        float: none;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    #footer8 .content {
+        float: none;
+        text-align: center;
+    }
+}
+
+/********* 1.30 BASIC BLOCKS STYLES /*****
+
+/* basic1 */
+
+/* basic2 */
+
+/* basic3 */

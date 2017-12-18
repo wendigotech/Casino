@@ -1,0 +1,56 @@
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+/* clearfix */
+
+/* display none until init */
+
+/* mouse grab icon */
+
+/* fix */
+
+.sl1:hover {
+    transition: none;
+}
+
+.sl1a:hover {
+    color: #ffffff;
+    transition: none;
+}
+
+.tb1:hover {
+    color: #fdffae;
+    text-shadow: 5px 0px 2px #f0fbfc;
+    transition: all 700  70;
+    transform: scaleY(1.1);
+}
+
+.tb1:hover {
+}
+
+.cl1:hover {
+    background-color: #39398a;
+}
+
+.cl2:hover {
+    background-color: #5eaaeb;
+}
+
+.cl3:hover {
+    background-color: #d7d7eb;
+}
+
+.cl4:hover {
+    color: #050505;
+    background-color: #f9f9fd;
+}
+
+.cl5:hover {
+    background-color: #0c0c0c;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.hvr-radial-out:hover {
+}

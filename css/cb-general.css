@@ -1,0 +1,38 @@
+/********* GENERAL STYLES (USE MANAGE STYLESHEETS TO UNHOOK IF CONFLICTS OCCUR WITH YOUR BASIC STYLES /*********
+
+/* general styles */
+
+body {
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  line-height: 1.9;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+a {
+  outline: medium none !important;
+}
+
+p {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 34px;
+  line-height: 54px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 22px;
+}
